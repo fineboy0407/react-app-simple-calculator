@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 300 1fr;
+  grid-template-columns: 1fr;
+
+  /* margin to make it look good */
+  margin: 5%;
+  -webkit-box-shadow: 6px 5px 10px -6px rgba(0, 0, 0, .4);
+  box-shadow: 6px 5px 10px -6px rgba(0, 0, 0, .4);
+  border: solid 1px #eee;
+}
+
+.title {
+  background-color: #ab14ab;
+  color: #fff;
+  padding: 1em;
+
+  grid-row: 1;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.caption {
+  text-transform: uppercase;
+}
+
+
+/* Button */
+.btn {
+  font-size: 1em;
+  font-weight: 400;
+
+  padding: 0.5rem;
+
+  background-color: #fff;
+  /*color: #bbb;*/
+  text-decoration: none;
+  text-align: center;
+
+  display: block;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #eee;
+}
+
+.display-div {
+  text-align: right;
+
+  padding: 1em;
+  display: grid;
+}
+
+.display-expression {
+  font-weight: 300;
+  height: 20px;
+}
+
+.display-value {
+  font-size: 1.5em;
+}
+
+/* Buttons of the calculator */
+.show-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+}
+
+/* Error DIV */
+.error-div {
+  position: absolute;
+  width: 300px;
+  font-size: 0.7em;
+
+  top: 5px;
+
+  /* align the div to center */
+  left: 0%;
+  right: 0%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+  .error-div {
+    width: 200px;
+  }
+}
+
+
+.error-msg {
+  color: #f02323;
+  border-left: solid 2px #e31a1a;
+  background-color: #f0e4bb;
+  padding: 1em;
+}
