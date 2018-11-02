@@ -2,11 +2,12 @@ import React from 'react';
 
 const ShowButtons = ({ computeValue, computeDisplayExpression }) => {
 
-  const CALCULATOR_BUTTONS = ['1', '2', '3', '4',
-    '5', '6', '7', '8',
-    '9', '0', '+', '-',
-    '*', '.', '/', '(',
-    ')', '^', 'CL', '='
+  const CALCULATOR_BUTTONS = [
+  	'(', ')', '^', 'CL',
+    '7', '8', '9', '/',
+    '4', '5', '6', '*',
+    '1', '2', '3', '-',
+    '.', '0', '=', '+'    
   ]
   return (
     <div className="show-buttons">
