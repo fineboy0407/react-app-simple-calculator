@@ -2,7 +2,9 @@
 A simple Calculator Application using React JS, a JavaScript library to make awesome UI by Facebook.
 
 This application uses React JS component oriented UI creation paradigm. All components are written in JSX and ES6 style and are
-combined using Webpack 4. Babel is used to *transpile* all JSX code to vanilla JavaScript code. States and Props are used to pass data within components. To install all the dependecies `npm` is used.
+combined using Webpack 4 to get the build for production purpose. 
+
+Babel is used to *transpile* all JSX code to vanilla JavaScript code. States and Props are used to pass data within components. To install all the dependecies `npm` is used.
 
 For calculation of all the expressions [math.js](https://www.npmjs.com/package/mathjs) is used.
 
@@ -13,7 +15,7 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 
 ## Features
 - Enter an expression using the keypad layout shown in the application
-- To do the calculation click the `=` button 
+- To get the result of the calculation / expression click the `=` button 
 - It supports all the integer as well as floating point calculations
 - Error messages would be shown if an symbol entered first
 - As the web application is not backed by database / storage *no history of the calculation* is kept
