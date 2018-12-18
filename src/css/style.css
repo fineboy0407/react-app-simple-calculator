@@ -79,7 +79,7 @@ html {
 .display-expression {
   font-weight: 300;
   height: 20px;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 }
 
 .display-value {
