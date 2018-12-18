@@ -1,14 +1,14 @@
 # react-app-simple-calculator
-A simple Calculator Application using React JS, a JavaScript library to make awesome UI by Facebook.
+A simple Calculator Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook.
 
-This application uses React JS component oriented UI creation paradigm. All components are written in JSX and ES6 style and are
-combined using Webpack 4 to get the build for production purpose. 
+This application uses React JS component oriented UI creation paradigm. All components are written in [JSX](https://reactjs.org/docs/jsx-in-depth.html) and ES6 style and are
+combined using [Webpack 4](https://webpack.js.org/concepts/) to get the build for production purpose. 
 
-Babel is used to *transpile* all JSX code to vanilla JavaScript code. States and Props are used to pass data within components. To install all the dependecies `npm` is used.
+[Babel](https://babeljs.io/docs/en/babel-preset-react) is used to *transpile* all [JSX]((https://reactjs.org/docs/jsx-in-depth.html)) code to vanilla JavaScript code. States and Props are used to pass data within components. To install all the dependecies `npm` is used.
 
 For calculation of all the expressions [math.js](https://www.npmjs.com/package/mathjs) is used.
 
-For UI creation HTML5 and CSS3 are used. `Grid`, the new feature of CSS3 is used for layout creation purpose.
+For UI creation HTML5 and CSS3 are used. [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), the new feature of CSS3 is used for layout creation purpose.
 
 This is a *responsive web application* for viewing in both Mobile and Desktop.
 
