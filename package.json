@@ -8,9 +8,17 @@
     "build": "webpack --mode production",
     "dev": "webpack --mode development"
   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anijitsahu/react-app-simple-calculator.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anijitsahu/react-app-simple-calculator/issues"
+  },
+  "homepage": "https://github.com/anijitsahu/react-app-simple-calculator#readme",
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
