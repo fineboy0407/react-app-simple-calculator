@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types'
 
 const ErrorComponent = ({ msg }) => {
@@ -8,7 +7,6 @@ const ErrorComponent = ({ msg }) => {
     </div>
   );
 };
-
 
 ErrorComponent.propTypes = {
   msg: PropTypes.string,

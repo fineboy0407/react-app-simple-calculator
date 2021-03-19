@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import math from 'mathjs'
+import { useState, useEffect, Component } from 'react';
+import { evaluate } from 'mathjs'
 
 // components
 import DisplayScreen from './DisplayScreen'
@@ -21,7 +21,7 @@ class Calculator extends Component {
   computeValue() {
 
     this.setState({
-      displayValue: math.eval(this.state.displayExpression)
+      displayValue: evaluate(this.state.displayExpression)
     })
 
     this.state.displayExpression = ''
@@ -37,7 +37,7 @@ class Calculator extends Component {
       })
 
     } else if (this.state.displayExpression == '' && event.target.id.match(/[0-9]/g) == null) {
-      
+
       // if a symbol comes without any number
       this.setState({
         displayExpression: ''
@@ -75,13 +75,13 @@ class Calculator extends Component {
       <div>
         {err}
 
-        <DisplayScreen 
-        displayExpression={displayExpression}
-        displayValue={displayValue}/>
+        <DisplayScreen
+          displayExpression={displayExpression}
+          displayValue={displayValue} />
 
-        <ShowButtons 
-        computeValue={this.computeValue.bind(this)}
-        computeDisplayExpression={this.computeDisplayExpression.bind(this)}/>
+        <ShowButtons
+          computeValue={this.computeValue.bind(this)}
+          computeDisplayExpression={this.computeDisplayExpression.bind(this)} />
       </div>
     );
   }
