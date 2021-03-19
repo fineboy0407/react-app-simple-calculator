@@ -15,7 +15,7 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 
 ## Features
 <ul>
- <li> Code is rewritten with <a href="https://reactjs.org/docs/getting-started.html">React JS 17</a> </li>
+ <li> Code is rewritten with <a href="https://reactjs.org/docs/hooks-intro.html">React JS 17</a> </li>
  <li> Latest features of JavaScript i.e. ES6, ES7, ES8 is used </li>
  <li> <a href="https://reactjs.org/docs/getting-started.html">React JS Hooks</a> are used with Functional components
 </ul>
