@@ -69,6 +69,7 @@ html {
   background-color: var(--light-grey);
   color: var(--darker-grey);
   text-decoration: none;
+  text-align: center;
 }
 
 .btn:hover,
