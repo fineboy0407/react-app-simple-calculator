@@ -19,6 +19,9 @@
 
   --light-purple: #ab14ab;
 
+  --light-red: #f02323;
+  --lighter-red: #e31a1a;
+
   --light-shadow: rgba(0, 0, 0, 0.4);
   --lighter-shadow: rgba(0, 0, 0, 0.2);
 }
@@ -62,8 +65,8 @@ html {
   font-weight: var(--font-weight-regular);
   padding: 0.5rem;
 
-  background-color: var(--light-purple);
-  color: var(--light-grey);
+  background-color: var(--light-grey);
+  color: var(--dark-grey);
   text-decoration: none;
 }
 
@@ -119,8 +122,8 @@ html {
 }
 
 .error-msg {
-  color: #f02323;
-  border-left: solid 2px #e31a1a;
+  color: var(--light-red);
+  border-left: solid 2px var(--lighter-red);
   background-color: #f0e4bb;
   padding: 1em;
 }
