@@ -1,4 +1,4 @@
-import { useState, useEffect, Component } from 'react';
+import { useState } from 'react';
 import { evaluate } from 'mathjs'
 
 // components
@@ -7,7 +7,6 @@ import ShowButtons from './ShowButtons'
 import ErrorComponent from './ErrorComponent'
 
 const Calculator = () => {
-
   // initial state
   const calcExpression = {
     displayExpression: '',

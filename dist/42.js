@@ -1,1 +1,0 @@
-(self.webpackChunkreact_app_simple_calculator=self.webpackChunkreact_app_simple_calculator||[]).push([[42],{42:()=>{}}]);

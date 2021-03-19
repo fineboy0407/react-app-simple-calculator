@@ -13,13 +13,9 @@ export default ({ computeValue, computeDisplayExpression }) => {
 
 			{
 				CALCULATOR_BUTTONS.map((ele, index) => {
-					var divStyle = { gridRow: (index / 4) + 1, gridColumn: (index / 4) + 1 }
-
 					return (
-						<div key={'calc-' + ele}>
-							<a href="#" id={ele} className="btn"
-								onClick={(ele != '=') ? computeDisplayExpression : computeValue} >{ele}</a>
-						</div>
+						<a key={'calc-' + ele} href="#" id={ele} className="btn"
+							onClick={(ele != '=') ? computeDisplayExpression : computeValue} >{ele}</a>
 					)
 				})
 			}
