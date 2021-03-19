@@ -3,20 +3,29 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-  font-family: 'Roboto', sans-serif;
+:root {
+  --font-small: 10px;
+  --font-regular: 16px;
+  --font-family: 'Roboto', sans-serif;
+
+  --font-weight-regular: 300;
+ 
+  --dark-grey: #ddd;
+  --light-grey: #eee;
+  --lighter-grey: #fff;
+
+  --light-purple: #ab14ab;
+
+  --light-shadow: rgba(0, 0, 0, 0.4);
+  --lighter-shadow: rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 10px;
-  }
+html {
+  font-size: var(--font-regular);
+  font-family: var(--font-family);
 }
 
 .container {
@@ -25,17 +34,16 @@ html {
   grid-template-columns: 1fr;
 
   /* margin to make it look good */
-  margin: 5%;
-  -webkit-box-shadow: 6px 5px 10px -6px rgba(0, 0, 0, .4);
-  box-shadow: 6px 5px 10px -6px rgba(0, 0, 0, .4);
-  border: solid 1px #eee;
+  margin: 5% auto;
+  width: 50vw;
+  box-shadow: 6px 5px 10px -6px var(--light-shadow);
+  border: solid 1px var(--light-grey);
 }
 
 .title {
-  background-color: #ab14ab;
-  color: #fff;
+  background-color: var(--light-purple);
+  color: var(--lighter-grey);
   padding: 1em;
-
   grid-row: 1;
 }
 
@@ -48,36 +56,30 @@ html {
   font-weight: 300;
 }
 
-
 /* Button */
 .btn {
   font-size: 1em;
-  font-weight: 400;
-
+  font-weight: var(--font-weight-regular);
   padding: 0.5rem;
 
-  background-color: #fff;
-  color: #a043a0;
+  background-color: var(--light-purple);
+  color: var(--light-grey);
   text-decoration: none;
-  text-align: center;
-
-  display: block;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: #eee;
+  color: var(--lighter-grey);
 }
 
 .display-div {
   text-align: right;
-
   padding: 1em;
   display: grid;
 }
 
 .display-expression {
-  font-weight: 300;
+  font-weight: var(--font-weight-regular);
   height: 20px;
   letter-spacing: 1px;
 }
@@ -98,7 +100,6 @@ html {
   position: absolute;
   width: 300px;
   font-size: 0.7em;
-
   top: 5px;
 
   /* align the div to center */
@@ -108,11 +109,14 @@ html {
 }
 
 @media screen and (max-width: 400px) {
+  html {
+    font-size: var(--font-small);
+  }
+
   .error-div {
     width: 200px;
   }
 }
-
 
 .error-msg {
   color: #f02323;
