@@ -13,7 +13,7 @@
 
   --font-weight-regular: 300;
  
-  --darker-grey: #bbb;
+  --darker-grey: #4d4c4c;
   --dark-grey: #ddd;
   --light-grey: #eee;
   --lighter-grey: #fff;
@@ -73,7 +73,7 @@ html {
 
 .btn:hover,
 .btn:focus {
-  color: var(--lighter-grey);
+  opacity: 0.5;
 }
 
 .display-div {
@@ -112,13 +112,17 @@ html {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   html {
     font-size: var(--font-small);
   }
 
   .error-div {
     width: 200px;
+  }
+
+  .container {
+    width: 90vw;
   }
 }
 
