@@ -2,7 +2,7 @@
 A simple Calculator Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook.  
 
 This application uses [React JS](https://reactjs.org/docs/getting-started.html) component oriented UI creation paradigm. All components are written in [JSX](https://reactjs.org/docs/jsx-in-depth.html) and ES6 style and are
-combined using [Webpack 4](https://webpack.js.org/concepts/) to get the build for production purpose. 
+combined using [Webpack 5](https://webpack.js.org/concepts/) to get the build for production purpose. 
 
 [Babel](https://babeljs.io/docs/en/babel-preset-react) is used to *transpile* all [JSX](https://reactjs.org/docs/jsx-in-depth.html) code to vanilla JavaScript code. States and Props are used to pass data within components. To install all the dependecies `npm` is used.
 
@@ -14,6 +14,12 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 
 
 ## Features
+<ul>
+ <li> Code is rewritten with <a href="https://reactjs.org/docs/getting-started.html">React JS 17</a> </li>
+ <li> Latest features of JavaScript i.e. ES6, ES7, ES8 is used </li>
+ <li> <a href="https://reactjs.org/docs/getting-started.html">React JS Hooks</a> are used with Functional components
+</ul>
+
 - Enter an expression using the keypad layout shown in the application
 - To get the result of the calculation / expression click the `=` button 
 - It supports all the integer as well as floating point calculations
@@ -24,13 +30,17 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 
 ## Installation
 
-1. Clone the repository using `git clone https://github.com/anijitsahu/react-app-simple-calculator.git` from `Git Bash / Command Prompt`
-2. Navigate inside the directory by `cd react-app-simple-calculator`
-3. Install all the necessary dependecies by using `npm install` (optional)
-4. Navigate to the directory `dist`
-5. Open `index.html` page in a web browser and do all your calculations
+Clone the repository:
+```
+git clone https://github.com/anijitsahu/react-app-simple-calculator.git
+```
+Navigate inside the directory: 
+```
+cd react-app-simple-calculator/dist
+```
+Open `index.html` page in a web browser and do all your calculations
  
-*tested with <img src="screenshots/chrome.png" width="20px" title="Google Chrome">Google Chrome v70 and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">Mozilla Firefox Developer Editon*  
+*tested with <img src="screenshots/chrome.png" width="20px" title="Google Chrome">[Google Chrome 89](https://www.google.com/chrome/) and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">[Mozilla Firefox 86](https://www.mozilla.org/en-US/firefox/new/)*  
 
 ## Screenshots
 
