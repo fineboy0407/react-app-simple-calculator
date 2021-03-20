@@ -66,7 +66,6 @@ html {
   font-weight: var(--font-weight-regular);
   padding: 0.5rem;
 
-  background-color: var(--light-grey);
   color: var(--darker-grey);
   text-decoration: none;
   text-align: center;
@@ -75,6 +74,7 @@ html {
 .btn:hover,
 .btn:focus {
   opacity: 0.5;
+  background-color: var(--light-grey);
 }
 
 .display-div {
