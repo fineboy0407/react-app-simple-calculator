@@ -5,5 +5,5 @@ export default ({ displayExpression, displayValue }) => {
       <div className="display-expression">{displayExpression}</div>
       <div className="display-value">{displayValue}</div>
     </div>
-  );
-};
+  )
+}
