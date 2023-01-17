@@ -1,3 +1,15 @@
-/* 
-Clock related css will appear here
-*/
+/* Clock related styles */
+
+.clock-container {
+  padding: 1rem;
+  margin-inline: auto;
+}
+.clock-time {
+  font-size: 2rem;
+}
+
+.clock-buttons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}

@@ -16,16 +16,22 @@ export default function App() {
   };
 
   return (
-    <div>
-      <h1>React Clock!</h1>
-      <span>
+    <div className="clock-container">
+      <h1>Time is now!</h1>
+      <span className="clock-time">
         {dateTime
           .toTimeString()
           .substring(0, dateTime.toTimeString().indexOf(" "))}
       </span>
       <br />
-      <button onClick={startTimer}>Start</button>
-      <button onClick={stopTimer}>Stop</button>
+      <div className="clock-buttons-container">
+        <button className="btn btn-success" onClick={startTimer}>
+          Start
+        </button>
+        <button className="btn btn-danger" onClick={stopTimer}>
+          Stop
+        </button>
+      </div>
     </div>
   );
 }

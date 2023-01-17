@@ -32,6 +32,9 @@ html {
   font-family: var(--font-family);
 }
 
+h1 {
+  font-weight: 100;
+}
 .container {
   display: grid;
   grid-template-rows: 300 1fr;
@@ -61,6 +64,10 @@ html {
 }
 
 /* Button */
+button {
+  border: none;
+}
+
 .btn {
   font-size: 1em;
   font-weight: var(--font-weight-regular);
@@ -75,6 +82,24 @@ html {
 .btn:focus {
   opacity: 0.5;
   background-color: var(--light-grey);
+}
+
+.btn-danger {
+  background-color: var(--light-red);
+  color: var(--light-grey);
+}
+
+.btn-danger:hover {
+  background-color: var(--lighter-red);
+}
+
+.btn-success {
+  background-color: var(--light-purple);
+  color: var(--light-grey);
+}
+
+.btn-success:hover {
+  background-color: var(--dark-grey);
 }
 
 .display-div {

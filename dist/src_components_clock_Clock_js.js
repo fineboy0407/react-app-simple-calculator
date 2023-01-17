@@ -31,16 +31,23 @@ function App() {
     clearInterval(window.timerId);
   };
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+    className: "clock-container",
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("h1", {
-      children: "React Clock!"
+      children: "Time is now!"
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("span", {
+      className: "clock-time",
       children: dateTime.toTimeString().substring(0, dateTime.toTimeString().indexOf(" "))
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
-      onClick: startTimer,
-      children: "Start"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
-      onClick: stopTimer,
-      children: "Stop"
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("br", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxs)("div", {
+      className: "clock-buttons-container",
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+        className: "btn btn-success",
+        onClick: startTimer,
+        children: "Start"
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)("button", {
+        className: "btn btn-danger",
+        onClick: stopTimer,
+        children: "Stop"
+      })]
     })]
   });
 }
@@ -66,7 +73,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "/* \nClock related css will appear here\n*/\n", "",{"version":3,"sources":["webpack://./src/css/clock.css"],"names":[],"mappings":"AAAA;;CAEC","sourcesContent":["/* \nClock related css will appear here\n*/\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "/* Clock related styles */\n\n.clock-container {\n  padding: 1rem;\n  margin-inline: auto;\n}\n.clock-time {\n  font-size: 2rem;\n}\n\n.clock-buttons-container {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 1rem;\n}\n", "",{"version":3,"sources":["webpack://./src/css/clock.css"],"names":[],"mappings":"AAAA,yBAAyB;;AAEzB;EACE,aAAa;EACb,mBAAmB;AACrB;AACA;EACE,eAAe;AACjB;;AAEA;EACE,aAAa;EACb,8BAA8B;EAC9B,cAAc;AAChB","sourcesContent":["/* Clock related styles */\n\n.clock-container {\n  padding: 1rem;\n  margin-inline: auto;\n}\n.clock-time {\n  font-size: 2rem;\n}\n\n.clock-buttons-container {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  grid-gap: 1rem;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
