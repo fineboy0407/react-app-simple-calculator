@@ -20,6 +20,9 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
  <li> <a href="https://reactjs.org/docs/hooks-intro.html">React JS Hooks</a> are used with Functional components
 </ul>
 
+ - React [code splitting](https://reactjs.org/docs/code-splitting.html) with *Suspense* feature is added.
+ - [React router](https://reactrouter.com/en/main) is added to maintain it as **Single Page Application (SPA)**.
+
 ### Calculator
 - Enter an expression using the keypad layout shown in the application
 - To get the result of the calculation / expression click the `=` button 
