@@ -53,11 +53,18 @@ Clone the repository:
 ```bash
 $ git clone https://github.com/anijitsahu/react-app-simple-calculator.git
 ```
-Navigate inside the directory: 
+Navigate inside the directory and install all dependencies: 
 ```bash
 $ cd react-app-simple-calculator/dist
+
+# install all dependencies
+$ npm install
 ```
-Open `index.html` page in a web browser and do all your calculations
+Run the Application
+```bash
+$ npm start
+```
+Open `localhost:8080/index.html` page in a web browser and enjoy
  
 *tested with latest version of <img src="screenshots/chrome.png" width="20px" title="Google Chrome">[Google Chrome](https://www.google.com/chrome/) and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">[Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)*  
 
