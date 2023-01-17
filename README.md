@@ -15,8 +15,8 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 
 ## Features
 <ul>
- <li> Code is rewritten with <a href="https://reactjs.org/docs/getting-started.html" >React JS 17</a> </li>
- <li> Latest features of JavaScript i.e. ES6, ES7, ES8 is used </li>
+ <li> Code is rewritten with <a href="https://reactjs.org/docs/getting-started.html">React JS 17</a> </li>
+ <li> Latest features of JavaScript i.e. ES6+ or ESnext is used </li>
  <li> <a href="https://reactjs.org/docs/hooks-intro.html">React JS Hooks</a> are used with Functional components
 </ul>
 
@@ -40,7 +40,7 @@ cd react-app-simple-calculator/dist
 ```
 Open `index.html` page in a web browser and do all your calculations
  
-*tested with <img src="screenshots/chrome.png" width="20px" title="Google Chrome">[Google Chrome 89](https://www.google.com/chrome/) and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">[Mozilla Firefox 86](https://www.mozilla.org/en-US/firefox/new/)*  
+*tested with latest version of <img src="screenshots/chrome.png" width="20px" title="Google Chrome">[Google Chrome](https://www.google.com/chrome/) and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">[Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)*  
 
 ## Screenshots
 
