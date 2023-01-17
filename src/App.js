@@ -1,7 +1,9 @@
-import { BrowserRouter } from "react-router-dom";
+// router dependencies
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 // components
 import Title from "./components/Title";
-import Calculator from "./components/Calculator";
+import Calculator from "./components/calculator/Calculator";
 
 // css
 import "./css/style.css";
@@ -12,7 +14,9 @@ const App = () => {
       <div className="container">
         {/* including the Title and other components */}
         <Title />
-        <Calculator />
+        <Routes>
+          <Route path="/" element={<Calculator />} />
+        </Routes>
       </div>
     </BrowserRouter>
   );
