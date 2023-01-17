@@ -133,3 +133,14 @@ html {
   background-color: #f0e4bb;
   padding: 1em;
 }
+
+/* scrollbar enhancement using css */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--dark-grey);
+  border-radius: 10px;
+}

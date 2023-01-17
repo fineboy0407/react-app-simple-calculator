@@ -7,6 +7,7 @@ export default () => {
       <span className="caption">
         <Link to="/">Calculator</Link>
         <Link to="clock">Clock</Link>
+        <Link to="todolist">ToDoList</Link>
       </span>
     </div>
   );
