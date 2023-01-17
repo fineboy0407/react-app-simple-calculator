@@ -26,7 +26,17 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 - Error messages would be shown if an symbol entered first
 - As the web application is not backed by database / storage *no history of the calculation* is kept
 
-
+### Todo List
+<ul>
+  <li> The app is loaded with some predefined todo items. </li>
+  <li> Latest features of Javascript i.e. ES6, ES7, ES8 is used </li>
+ </ul>
+ 
+<ul>
+ <li> Type an item in the input box and press <code>ENTER</code> key to add it in the todo list</li>
+ <li> Deletion of an item is done by clicking the <code>X</code> icon </li> 
+ <li> As the application is not backed by any database / storage all the items created or deleted is <i>not persistant</i> </li>
+</ul>
 
 ## Installation
 
