@@ -39,6 +39,11 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
  <li> As the application is not backed by any database / storage all the items created or deleted is <i>not persistant</i> </li>
 </ul>
 
+### Clock
+1. Basic clock example using [React JS](https://reactjs.org).
+2. **Start** clock button is there to start the clock.
+3. To stop the clock click **Stop** button
+
 ## Installation
 
 Clone the repository:
