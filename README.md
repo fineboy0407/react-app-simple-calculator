@@ -20,6 +20,7 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
  <li> <a href="https://reactjs.org/docs/hooks-intro.html">React JS Hooks</a> are used with Functional components
 </ul>
 
+### Calculator
 - Enter an expression using the keypad layout shown in the application
 - To get the result of the calculation / expression click the `=` button 
 - It supports all the integer as well as floating point calculations
