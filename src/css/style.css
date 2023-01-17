@@ -19,6 +19,7 @@
   --lighter-grey: #fff;
 
   --light-purple: #ab14ab;
+  --lighter-purple: #aa5eb0;
 
   --light-red: #f02323;
   --lighter-red: #e31a1a;
@@ -84,22 +85,26 @@ button {
   background-color: var(--light-grey);
 }
 
-.btn-danger {
+.btn-danger,
+.btn-danger:focus {
   background-color: var(--light-red);
   color: var(--light-grey);
+  opacity: 1;
 }
 
 .btn-danger:hover {
   background-color: var(--lighter-red);
 }
 
-.btn-success {
+.btn-success,
+.btn-success:focus {
   background-color: var(--light-purple);
   color: var(--light-grey);
+  opacity: 1;
 }
 
 .btn-success:hover {
-  background-color: var(--dark-grey);
+  background-color: var(--lighter-purple);
 }
 
 .display-div {

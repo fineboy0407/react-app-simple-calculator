@@ -1,7 +1,7 @@
 /* Clock related styles */
 
 .clock-container {
-  padding: 1rem;
+  padding: 4rem;
   margin-inline: auto;
 }
 .clock-time {
@@ -12,4 +12,5 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
+  padding-top: 1rem;
 }

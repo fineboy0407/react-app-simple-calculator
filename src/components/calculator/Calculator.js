@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { evaluate } from "mathjs";
 
+
 // components
 import DisplayScreen from "./DisplayScreen";
 import ShowButtons from "./ShowButtons";
@@ -19,6 +20,7 @@ const Calculator = () => {
 
   // the actual computation using Math.js
   const computeValue = () => {
+    // use lazy loading webpack to improve bundle size
     setCalcExp({
       ...calcExp,
       displayValue: evaluate(calcExp.displayExpression),
