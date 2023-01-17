@@ -1,18 +1,21 @@
+import { BrowserRouter } from "react-router-dom";
 // components
-import Title from "./components/Title"
-import Calculator from "./components/Calculator"
+import Title from "./components/Title";
+import Calculator from "./components/Calculator";
 
 // css
-import "./css/style.css"
+import "./css/style.css";
 
 const App = () => {
-	return (
-		<div className="container">
-			{/* including the Title and other components */}
-			<Title />
-			<Calculator />
-		</div>
-	)
-}
+  return (
+    <BrowserRouter>
+      <div className="container">
+        {/* including the Title and other components */}
+        <Title />
+        <Calculator />
+      </div>
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
