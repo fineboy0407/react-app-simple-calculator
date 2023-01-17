@@ -52,23 +52,6 @@
   border-bottom: solid 2px var(--light-purple);
 }
 
-/* Button */
-.btn {
-  font-size: 1em;
-  font-weight: 300;
-
-  padding: 0.5rem;
-
-  background-color: var(--light-purple);
-  color: var(--light-grey);
-  text-decoration: none;
-}
-
-.btn:hover,
-.btn:focus {
-  color: var(--lighter-grey);
-}
-
 .show-add-items {
   margin: 2%;
   display: grid;

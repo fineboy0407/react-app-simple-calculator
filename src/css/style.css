@@ -113,6 +113,22 @@ html {
   margin: 0 auto;
 }
 
+/* Links related */
+.link-item {
+  text-decoration: none;
+  padding-inline: 1rem;
+  color: var(--lighter-grey);
+  font-size: 1.2rem;
+}
+
+.link-item:hover {
+  opacity: 0.5;
+}
+
+.active-link {
+  font-weight: 700;
+}
+
 @media screen and (max-width: 500px) {
   html {
     font-size: var(--font-small);

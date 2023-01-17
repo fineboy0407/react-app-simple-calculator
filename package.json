@@ -1,6 +1,6 @@
 {
   "name": "react-app-simple-calculator",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "This is a simple calculator Application",
   "main": "index.js",
   "scripts": {

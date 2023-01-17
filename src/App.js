@@ -17,7 +17,7 @@ const App = () => {
       <div className="container">
         {/* including the Title and other components */}
         <Title />
-        <Suspense>
+        <Suspense fallback="Loading...">
           <Routes>
             <Route path="/" element={<Calculator />} />
             <Route path="clock" element={<Clock />} />

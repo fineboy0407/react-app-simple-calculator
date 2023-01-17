@@ -1,13 +1,29 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { Constants } from "../Constants";
 
-// Title component
 export default () => {
+  const [activeLinkIndex, setActiveLinkIndex] = useState(0);
+  const allConstants = Constants();
+  const allLinks = allConstants.allLinks;
+
   return (
     <div className="title">
-      <span className="caption">
-        <Link to="/">Calculator</Link>
-        <Link to="clock">Clock</Link>
-        <Link to="todolist">ToDoList</Link>
+      <span>
+        {allLinks.map((link, index) => {
+          const linkStyle =
+            index === activeLinkIndex ? "link-item active-link" : "link-item";
+          return (
+            <Link
+              key={index}
+              to={link.to}
+              className={linkStyle}
+              onClick={() => setActiveLinkIndex(index)}
+            >
+              {link.name}
+            </Link>
+          );
+        })}
       </span>
     </div>
   );
