@@ -31,12 +31,12 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 ## Installation
 
 Clone the repository:
-```
-git clone https://github.com/anijitsahu/react-app-simple-calculator.git
+```bash
+$ git clone https://github.com/anijitsahu/react-app-simple-calculator.git
 ```
 Navigate inside the directory: 
-```
-cd react-app-simple-calculator/dist
+```bash
+$ cd react-app-simple-calculator/dist
 ```
 Open `index.html` page in a web browser and do all your calculations
  
