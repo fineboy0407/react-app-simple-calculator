@@ -4,7 +4,7 @@ import { lazy, Suspense } from "react";
 
 // components
 import Title from "./components/layout/Title";
-import Calculator from "./components/calculator/Calculator";
+const Calculator = lazy(() => import("./components/calculator/Calculator"));
 const Clock = lazy(() => import("./components/clock/Clock"));
 const ToDoList = lazy(() => import("./components/todolist/ToDoList"));
 
