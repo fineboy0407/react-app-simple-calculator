@@ -1,5 +1,5 @@
 # react-app-simple-calculator
-A simple Calculator Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook.  
+A simple Calculator Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook. Along with Calculator several small applications are also hosted. 
 
 This application uses [React JS](https://reactjs.org/docs/getting-started.html) component oriented UI creation paradigm. All components are written in [JSX](https://reactjs.org/docs/jsx-in-depth.html) and ES6 style and are
 combined using [Webpack 5](https://webpack.js.org/concepts/) to get the build for production purpose. 
@@ -64,7 +64,7 @@ Run the Application
 ```bash
 $ npm start
 ```
-Open `localhost:8080/index.html` page in a web browser and enjoy
+Open `localhost:8080/` page in a web browser and enjoy
  
 *tested with latest version of <img src="screenshots/chrome.png" width="20px" title="Google Chrome">[Google Chrome](https://www.google.com/chrome/) and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">[Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)*  
 
