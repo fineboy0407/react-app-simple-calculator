@@ -93,6 +93,9 @@ Desktop as well as Mobile version of the screenshots are given side by side
  <img src="screenshots/desktop 4.png" width="590px" title="Error screen"/>
  <img src="screenshots/mobile 4.png" width="230px" title="Error screen"/>
  </p>
+
+ co-contributer : Algo Eagle
+
  
  
 
